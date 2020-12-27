@@ -1,0 +1,12 @@
+#pragma once
+#include "day_factory.hpp"
+
+DAY(DayX)
+
+void DayX::part1() {
+
+}
+
+void DayX::part2() {
+
+}
