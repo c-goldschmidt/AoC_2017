@@ -2,6 +2,7 @@
 
 #include "day1.hpp"
 #include "day2.hpp"
+#include "day3.hpp"
 
 void runDay(string dayNum) {
 	unique_ptr<Day> day = DayFactory::Create("Day" + dayNum);

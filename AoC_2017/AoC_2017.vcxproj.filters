@@ -44,6 +44,9 @@
     <ClInclude Include="utils.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="day3.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="_dayTemplate._hpp">

@@ -146,6 +146,7 @@
     <ClInclude Include="day.hpp" />
     <ClInclude Include="day1.hpp" />
     <ClInclude Include="day2.hpp" />
+    <ClInclude Include="day3.hpp" />
     <ClInclude Include="days.hpp" />
     <ClInclude Include="day_factory.hpp" />
     <ClInclude Include="includes.h" />
