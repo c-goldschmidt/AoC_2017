@@ -12,5 +12,4 @@ int main(int argc, char* argv[]) {
 	} else {
 		runDay(argv[1]);
 	}
-
 }

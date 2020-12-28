@@ -18,3 +18,14 @@ bool className::s_registered = DayFactory::Register(className::GetFactoryName(),
 
 #define print(x) cout << x << endl
 #define printResult(x) cout << "Result: " << x << endl
+
+#define uint unsigned int
+
+#define measure(content) { \
+	long long start = PerformanceCounter(); \
+	content; \
+	long long finish = PerformanceCounter(); \
+	long long frequency = PerformanceFrequency(); \
+	double elapsedMilliseconds = ((finish - start) * 1000.0) / frequency; \
+	print("Time: " << elapsedMilliseconds << "ms"); \
+} \

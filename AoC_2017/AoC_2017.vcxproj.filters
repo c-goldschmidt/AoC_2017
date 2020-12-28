@@ -47,6 +47,18 @@
     <ClInclude Include="day3.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="day4.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="day5.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="day6.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="day7.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="_dayTemplate._hpp">

@@ -7,6 +7,7 @@
 #include <vector>
 #include <regex>
 #include <map>
+#include <Windows.h>
 
 #include "macros.h"
 

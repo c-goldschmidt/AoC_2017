@@ -103,6 +103,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -147,6 +148,10 @@
     <ClInclude Include="day1.hpp" />
     <ClInclude Include="day2.hpp" />
     <ClInclude Include="day3.hpp" />
+    <ClInclude Include="day4.hpp" />
+    <ClInclude Include="day5.hpp" />
+    <ClInclude Include="day6.hpp" />
+    <ClInclude Include="day7.hpp" />
     <ClInclude Include="days.hpp" />
     <ClInclude Include="day_factory.hpp" />
     <ClInclude Include="includes.h" />

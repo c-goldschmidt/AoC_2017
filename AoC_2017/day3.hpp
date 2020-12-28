@@ -16,7 +16,6 @@ private:
 	map<int, map<int, int>> values;
 };
 
-
 int ValueMap::setValue(int y, int x) {
 	int value = getValue(y, x + 1) + getValue(y, x - 1)
 		+ getValue(y + 1, x) + getValue(y + 1, x + 1) + getValue(y + 1, x - 1)
