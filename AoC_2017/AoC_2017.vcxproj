@@ -146,12 +146,27 @@
   <ItemGroup>
     <ClInclude Include="day.hpp" />
     <ClInclude Include="day1.hpp" />
+    <ClInclude Include="day10.hpp" />
+    <ClInclude Include="day11.hpp" />
+    <ClInclude Include="day12.hpp" />
+    <ClInclude Include="day13.hpp" />
+    <ClInclude Include="day14.hpp" />
+    <ClInclude Include="day15.hpp" />
+    <ClInclude Include="day16.hpp" />
+    <ClInclude Include="day17.hpp" />
+    <ClInclude Include="day18.hpp" />
+    <ClInclude Include="day19.hpp" />
     <ClInclude Include="day2.hpp" />
+    <ClInclude Include="day20.hpp" />
+    <ClInclude Include="day21.hpp" />
+    <ClInclude Include="day22.hpp" />
     <ClInclude Include="day3.hpp" />
     <ClInclude Include="day4.hpp" />
     <ClInclude Include="day5.hpp" />
     <ClInclude Include="day6.hpp" />
     <ClInclude Include="day7.hpp" />
+    <ClInclude Include="day8.hpp" />
+    <ClInclude Include="day9.hpp" />
     <ClInclude Include="days.hpp" />
     <ClInclude Include="day_factory.hpp" />
     <ClInclude Include="includes.h" />

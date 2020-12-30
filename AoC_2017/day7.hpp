@@ -35,13 +35,13 @@ string getRoot(vector<string> fileContent, map<string, TreeNode> *nodes) {
 		nodeNames.push_back(asNode.name);
 	}
 
-	string root;
 	for (auto nodeName: nodeNames) {
 		auto parent = parents.find(nodeName);
 		if (parent == parents.end()) {
 			return nodeName;
 		}
 	}
+	return "";
 }
 
 int getWeight(string nodeName, map<string, TreeNode> *nodes) {
