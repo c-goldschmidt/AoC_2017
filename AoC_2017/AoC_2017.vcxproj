@@ -160,6 +160,9 @@
     <ClInclude Include="day20.hpp" />
     <ClInclude Include="day21.hpp" />
     <ClInclude Include="day22.hpp" />
+    <ClInclude Include="day23.hpp" />
+    <ClInclude Include="day24.hpp" />
+    <ClInclude Include="day25.hpp" />
     <ClInclude Include="day3.hpp" />
     <ClInclude Include="day4.hpp" />
     <ClInclude Include="day5.hpp" />
@@ -172,9 +175,6 @@
     <ClInclude Include="includes.h" />
     <ClInclude Include="macros.h" />
     <ClInclude Include="utils.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="_dayTemplate._hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -182,7 +182,7 @@ bool DuetInterpreter::rcv(string x) {
 }
 
 bool DuetInterpreter::jgz(string x, string y) {
-	long long value = getValue(y);
+	uint value = static_cast<uint>(getValue(y));
 	if (getValue(x) > 0) {
 		ptr += value - 1;
 	}

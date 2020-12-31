@@ -104,10 +104,14 @@
     <ClInclude Include="day22.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="_dayTemplate._hpp">
+    <ClInclude Include="day23.hpp">
       <Filter>Headerdateien</Filter>
-    </None>
+    </ClInclude>
+    <ClInclude Include="day24.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="day25.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

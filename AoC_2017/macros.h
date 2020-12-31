@@ -20,6 +20,7 @@ bool className::s_registered = DayFactory::Register(className::GetFactoryName(),
 #define printResult(x) cout << "Result: " << x << endl
 
 #define uint unsigned int
+#define ushort unsigned short
 #define ulong unsigned long long
 
 #define measure(content) { \
